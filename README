@@ -1,0 +1,9 @@
+Simple shell script to enable / disable the touchpad of Dell Latitude E5410 (Brazilian model) notebooks.
+Every time it is executed, it toggles the touchpad on / off.
+Great to bind to a global hotkey. I use it with win/super/mod+F5 (any hint on how to use FN key on custom shortcuts?).
+Tested with Ubuntu 11.10 64bit, but it should work with any Debian based linux, it not all.
+
+Almost fully based on the script posted as an answer by Martin Wallgren here:
+http://askubuntu.com/questions/14178/how-to-disable-touchpad-on-dell-latitude-e-series-e5510-e6510
+
+ 
