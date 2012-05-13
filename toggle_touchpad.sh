@@ -1,8 +1,8 @@
 #!/bin/bash                                                                                          
-enabled=`xinput list-props "ImPS/2 ALPS GlidePoint" | grep -e "Device Enabled\ (126):\s*1"`
+enabled=`xinput list-props "FSPPS/2 Sentelic FingerSensingPad" | grep -e "Device Enabled\ (132):\s*1"`
 
 if [ -n "$enabled" ]; then
-    xinput set-prop "ImPS/2 ALPS GlidePoint" "Device Enabled" 0
+    xinput set-prop "FSPPS/2 Sentelic FingerSensingPad" "Device Enabled" 0
 else
-    xinput set-prop "ImPS/2 ALPS GlidePoint" "Device Enabled" 1
+    xinput set-prop "FSPPS/2 Sentelic FingerSensingPad" "Device Enabled" 1
 fi
