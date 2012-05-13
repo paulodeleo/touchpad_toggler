@@ -1,4 +1,4 @@
-Simple shell script to enable / disable the touchpad of Dell Latitude E5410 (Brazilian model) notebooks.
+Simple shell script to enable / disable the touchpad of CCE Win T33L (Brazilian model) notebooks.
 
 Every time it is executed, it toggles the touchpad on / off.
 
